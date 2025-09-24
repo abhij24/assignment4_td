@@ -1,5 +1,5 @@
 try:
-    file = open('sample.txt', 'r+')
+    file = open('sample.txt', 'r')
     reading_file1 = file.readline()
     reading_file2 = file.readline()
     print("Reading file content:")
